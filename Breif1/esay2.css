@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar*/
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    display: flex;
+    font-family: century;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+    
+}
+/* Elon Musk  */
+
+#ElonMusk{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba( 0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 0em;
+    
+}
+#ElonMusk::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('https://www.presse-citron.net/app/uploads/2021/04/elonmusk.jpg' ) no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+}
+.name{
+    font-family: century;
+    font-size: 4em;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+font-weight: bold;
+}
+/* Who Is Elon Musk? selection */
+.wiem{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #4A5FC1;
+    color: #9CF6FB;
+    
+}
+.who{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+}
+#images{
+    width: 575px;
+    height: 400px;
+    border-radius: 20px;
+    
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    line-height: 2em;
+    font-weight: bold;
+    
+
+
+}
+.intro h2{
+    font-size: 2rem;
+    padding-bottom: 20px;
+    margin-top: 0px;
+
+}
+.wiem h1{
+    text-align: left;
+    font-weight: bold;
+    
+}
+#rlfe{
+    text-align: center;
+    padding: 30px;
+}
+.wiem h1{
+    text-align: center;
+    font-weight: bold;
+}
+/* Early Life section */
+#life{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 50px;
+    align-items: center;
+    background-color: #00ABE1;
+    color: white
+    ;
+    
+}
+#para{
+    text-align: justify;
+    display: flex;
+    padding: 50px;
+    line-height: 2em;
+    font-weight: bold;
+}
+#titlef{
+    text-align: center;
+    font-size: 2rem;
+    
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border: white ;
+    border-radius: 20px;
+}
+
+/* family section */
+#family{
+    display: flex;
+    
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    color: #7DA2A9
+    ;
+}
+#lafam{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 50px;
+    line-height: 2em;
+    font-weight: bold;
+}
+#titlfam{
+    text-align: center;
+    font-size: 2rem;
+    
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border: white ;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*education section*/
+
+section{
+    
+    color: white;
+    background-image: url();
+    
+    
+}
+#Education{
+    display: flex;
+    
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #D48166;
+    color: #373A36;
+}
+.title1{
+    text-align: center;
+    font-size: 2rem;
+    
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border: white ;
+    border-radius: 20px;
+
+}
+.unerder{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 50px;
+    line-height: 2em;
+    font-weight: bold;
+    
+
+}
+
+#Education img{
+    width: 575px;
+    height: 380px;
+    margin-top: 50px;
+    text-align: left;
+    
+
+}
+
+
+
+/* Companies  section */
+
+#Companies{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#alls{
+    display: flex;
+    
+}
+#one{
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    height: 500px;
+    border: 1px solid white;
+    margin: 40px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    
+}
+#PayPal{
+    display: flex;
+    flex-direction: column;
+    width: 1500PX;
+    height: 500px;
+    border: 1px solid white;
+    margin: 40px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb());
+}
+#SpaceX{
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    height: 500px;
+    border: 1px solid white;
+    margin: 40px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb());
+}
+#SpaceX img{
+    width: 300px;
+    height: 300px;
+}
+
+#two{
+    display: flex;
+}
+
+
+#Tesla{
+
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    height: 600px;
+    border: 1px solid white;
+    margin: 40px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb());
+
+}
+#Tesla img{
+    width: 300px;
+    height: 200px;
+}
+
+#born{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 2000px;
+    height: 600px;
+    margin: 40px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb());
+    
+}
+
+
+#SolarCity{
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    height: 600px;
+    border: 1px solid white;
+    margin: 40px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb());
+
+
+}
+#SolarCity img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+#born img{
+    width: 200px;
+    height: 200px;
+}
+
+#titlcom{
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: #7ED5EA 1px solid;
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: white;
+    background-color: #7ED5EA;
+}
+
+
+
+
+
+
+
+
+
+
+
+.comps{
+    
+    background-color:  ;
+    color: #F7F7F7;
+    font-size: 1em;
+    align-items: center;
+    background-color: #7ED5EA
+    ;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    width: 1500px;
+    height: 1000px;
+}
+.comps:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+#Companies{
+    background-color: #F7F7F7;
+}
+#muskvid{
+    width: 100%;
+    height: 100%;
+}
